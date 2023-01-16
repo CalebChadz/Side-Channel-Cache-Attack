@@ -1,5 +1,5 @@
 # Side-Channel-Cache-Attack
-Detect the size of system cache by timing cache reads on different lengths of data. 
+Detect the size of system LLC (Last Layer Cache) cache by timing cache reads on different lengths of data (using a side-chain algorithm to infer the size analogous to the side-chain techniques used in Spectre and Meltdown's exploitation of speculative execution). 
 
 Reccomended parameters:
 Steps = 512 or 256 for faster run time.
